@@ -12,22 +12,21 @@ I am an Electronics and Communication Engineer specializing in C/C++ firmware de
 
 * **Firmware & Languages:** C/C++, Python (Core & OOP), JavaScript, HTML/CSS, Memory Management (Pointers/Structs).
 * **Embedded & IoT:** FreeRTOS (Task Scheduling, Queues, Mutexes), ESP32, Microcontrollers, MQTT, UART, I2C, Sensor Integration.
+* **Mobile:** Flutter, Dart
 * **Tools & Environments:** PlatformIO, VS Code, Wokwi (Hardware-in-the-Loop Simulation), Git, MS Excel.
+
 * **Other Technologies:** Machine Learning (CNN), Computer Vision (OpenCV), Generative AI.
 
-## 🚀 Featured Projects
+## Projects
 
-### 1. IIoT Safety Controller & Edge Node
-Architected a fault-tolerant ESP32 safety controller utilizing FreeRTOS preemptive scheduling to decouple asynchronous MQTT cloud telemetry from time-critical hardware interrupts. Engineered thread-safe data pipelines using RTOS Queues and Mutexes.
-* **Tech:** FreeRTOS, C++, ESP32, MQTT, JSON
+| Project | Description | Tech |
+|---|---|---|
+| IIoT Safety Controller | Fault-tolerant ESP32 edge node with FreeRTOS, MQTT telemetry & thread-safe pipelines | FreeRTOS, C++, ESP32, MQTT |
+| ProxiChat | Proximity-based anonymous chat app | Flutter, Dart |
+| Magnetic Field Detector | Portable Hall-effect sensor device with real-time display | C++, Microcontroller, ADC |
+| Hand Gesture Recognition | CNN-based camera-to-text/speech system | Python, CNN, OpenCV |
 
-### 2. Magnetic Field Detector
-A portable embedded device designed to measure magnetic fields within a small radius. Utilizes a Hall effect sensor to detect voltage variations, processed via bare-metal C++ on a microcontroller for real-time display.
-* **Tech:** C++, Microcontrollers, ADC/Hardware Integration
-
-### 3. Hand Gesture Recognition
-A Python-based computer vision application that converts camera input into text or speech. Employs a Convolutional Neural Network (CNN) to analyze visual imagery and track hand topography.
-* **Tech:** Python, OpenCV, Machine Learning, CNN
+---
 
 ## ⚙️ Running the Portfolio Locally
 This portfolio is built with pure HTML and Tailwind CSS. No complex build tools or package managers are required.

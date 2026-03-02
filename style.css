@@ -827,8 +827,8 @@ footer {
   position: absolute;
   inset: 0;
   background: 
-    linear-gradient(to right, #111827 0%, transparent 20%),
-    linear-gradient(to left, #111827 0%, transparent 20%);
+    linear-gradient(to right, #111827 0%, transparent 1%),
+    linear-gradient(to left, #111827 0%, transparent 1%);
   pointer-events: none;
   z-index: 1;
 }

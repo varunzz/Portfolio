@@ -5,11 +5,10 @@
   --bg-primary: #080b14;
   --bg-secondary: #0d1120;
   --bg-card: #111827;
-  --bg-card-hover: #151d2e;
+
   --accent-cyan: #00e5ff;
   --accent-violet: #7c3aed;
   --accent-rose: #f43f5e;
-  --accent-amber: #f59e0b;
   --text-primary: #e2e8f0;
   --text-muted: #64748b;
   --text-dim: #94a3b8;
@@ -707,8 +706,10 @@ section {
   pointer-events: none;
 }
 .contact-email {
-  font-size: clamp(1.5rem, 3vw, 2.5rem);
-  font-weight: 800;
+  word-break: break-all;
+ 
+  font-size: clamp(0.85rem, 3.5vw, 2.5rem);
+  font-weight: 700;
   letter-spacing: -0.02em;
   color: var(--text-primary);
   display: inline-block;
@@ -790,10 +791,6 @@ footer {
   80% { opacity: 0; transform: translateY(10px); }
   100% { opacity: 0; transform: translateY(10px); }
 }
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
-}
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 900px) {
@@ -814,3 +811,25 @@ footer {
   .stats-grid { grid-template-columns: 1fr 1fr; }
   .section-title { font-size: 2rem; }
 }
+
+.proxichat-img {
+  object-fit: cover !important;
+  object-position: center 11% !important;
+  transform: scale(1.1);
+}
+
+.proxichat-wrap {
+  background-color: #0d1120;
+}
+
+.proxichat-wrap::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: 
+    linear-gradient(to right, #111827 0%, transparent 20%),
+    linear-gradient(to left, #111827 0%, transparent 20%);
+  pointer-events: none;
+  z-index: 1;
+}
+

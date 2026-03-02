@@ -15,8 +15,6 @@ I am an Electronics and Communication Engineer specializing in C/C++ firmware de
 * **Mobile:** Flutter, Dart
 * **Tools & Environments:** PlatformIO, VS Code, Wokwi (Hardware-in-the-Loop Simulation), Git, MS Excel.
 
-* **Other Technologies:** Machine Learning (CNN), Computer Vision (OpenCV), Generative AI.
-
 ## Projects
 
 | Project | Description | Tech |
@@ -29,7 +27,7 @@ I am an Electronics and Communication Engineer specializing in C/C++ firmware de
 ---
 
 ## ⚙️ Running the Portfolio Locally
-This portfolio is built with pure HTML and Tailwind CSS. No complex build tools or package managers are required.
+This portfolio is built with pure HTML and CSS. No build tools or dependencies required.
 1. Clone the repository: `git clone https://github.com/varunzz/Portfolio.git`
 2. Navigate to the directory: `cd Portfolio`
 3. Open `index.html` in your preferred web browser.
